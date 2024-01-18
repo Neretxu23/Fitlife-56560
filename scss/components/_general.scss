@@ -1,0 +1,29 @@
+/*Importando a base*/
+@import "../base/extends";
+@import "../base/maps";
+@import "../base/mixins";
+/*Fin importando a base*/
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.bg-img{
+    @include sizes(100%, auto);
+    opacity: 0.9;
+    position: absolute;
+    z-index: -1;
+    position: fixed;
+}
+
+main {
+    margin: 3rem;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.723);
+}

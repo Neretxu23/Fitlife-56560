@@ -1,0 +1,20 @@
+/*Importando a base*/
+@import "../base/extends";
+@import "../base/maps";
+@import "../base/mixins";
+/*Fin importando a base*/
+
+footer {
+    margin: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fitlife-footer{
+    @include sizes (auto,3rem);
+    border-radius: 1rem;
+}
+
+.rrss-footer{
+    @include sizes (2rem,2rem);
+}

@@ -1,0 +1,839 @@
+@charset "UTF-8";
+/*Components*/
+/*Importando a base*/
+.objetivo .socios-caja {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.objetivo .alta-caja {
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+.secciones .img-centro4, .secciones .img-centro3, .secciones .img-centro2, .secciones .img-centro1 {
+  background-size: contain;
+  background-position: center;
+  background-repeat: round;
+  background-size: 100%;
+}
+
+.secciones .img-centro4:hover, .secciones .img-centro3:hover, .secciones .img-centro2:hover, .secciones .img-centro1:hover, .secciones .seccion:hover {
+  transition: 2s;
+  transform: scale(1.5);
+}
+
+/*Importando a base*/
+/*Fin Importando a base*/
+/*Titulos*/
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: x-large;
+}
+
+/*Fin titulos*/
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  list-style: none;
+}
+
+/*Fondo de texto*/
+.body-contenedor {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  background-color: rgba(226, 226, 226, 0.737);
+  border-radius: 2rem;
+}
+
+/*Fin Fondo de texto*/
+/*Fin importando a base*/
+footer {
+  margin: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fitlife-footer {
+  width: auto;
+  height: 3rem;
+  border-radius: 1rem;
+}
+
+.rrss-footer {
+  width: 2rem;
+  height: 2rem;
+}
+
+/*Importando a base*/
+.objetivo .socios-caja {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.objetivo .alta-caja {
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+.secciones .img-centro4, .secciones .img-centro3, .secciones .img-centro2, .secciones .img-centro1 {
+  background-size: contain;
+  background-position: center;
+  background-repeat: round;
+  background-size: 100%;
+}
+
+.secciones .img-centro4:hover, .secciones .img-centro3:hover, .secciones .img-centro2:hover, .secciones .img-centro1:hover, .secciones .seccion:hover {
+  transition: 2s;
+  transform: scale(1.5);
+}
+
+/*Importando a base*/
+/*Fin Importando a base*/
+/*Titulos*/
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: x-large;
+}
+
+/*Fin titulos*/
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  list-style: none;
+}
+
+/*Fondo de texto*/
+.body-contenedor {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  background-color: rgba(226, 226, 226, 0.737);
+  border-radius: 2rem;
+}
+
+/*Fin Fondo de texto*/
+/*Fin importando a base*/
+/*Logotipo*/
+.img-logo-fitlife {
+  width: 8rem;
+  height: 6rem;
+}
+
+/*Fin Logotipo*/
+/*Navegación*/
+.nav-list {
+  width: 50rem;
+  height: 6rem;
+}
+.nav-list .ul-nav {
+  margin-top: 2rem;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav-list .ul-nav a:link {
+  color: rgb(0, 0, 0);
+}
+.nav-list .ul-nav a:visited {
+  color: rgb(0, 0, 0);
+}
+.nav-list .ul-nav a:hover {
+  color: rgba(33, 45, 206, 0.799);
+}
+
+/*Fin Navegación*/
+/*Importando a base*/
+.objetivo .socios-caja {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.objetivo .alta-caja {
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+.secciones .img-centro4, .secciones .img-centro3, .secciones .img-centro2, .secciones .img-centro1 {
+  background-size: contain;
+  background-position: center;
+  background-repeat: round;
+  background-size: 100%;
+}
+
+.secciones .img-centro4:hover, .secciones .img-centro3:hover, .secciones .img-centro2:hover, .secciones .img-centro1:hover, .secciones .seccion:hover {
+  transition: 2s;
+  transform: scale(1.5);
+}
+
+/*Importando a base*/
+/*Fin Importando a base*/
+/*Titulos*/
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: x-large;
+}
+
+/*Fin titulos*/
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  list-style: none;
+}
+
+/*Fondo de texto*/
+.body-contenedor {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  background-color: rgba(226, 226, 226, 0.737);
+  border-radius: 2rem;
+}
+
+/*Fin Fondo de texto*/
+/*Fin importando a base*/
+/*Page/Index*/
+.img-logo-whatsapp {
+  width: 6rem;
+  height: 6rem;
+}
+
+.whatsapp-contenedor {
+  margin-top: auto;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: flex-end;
+  position: static;
+}
+
+.objetivo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.objetivo .alta-caja {
+  width: 30rem;
+  height: 11rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(235, 235, 235, 0.793);
+  animation-name: cambio-color;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes cambio-color {
+  from {
+    background-color: rgba(136, 136, 136, 0.825);
+  }
+  50% {
+    background-color: rgba(255, 255, 255, 0.883);
+  }
+  to {
+    background-color: rgba(136, 136, 136, 0.825);
+  }
+}
+.objetivo .alta-caja .alta-caja:hover {
+  animation-play-state: paused !important;
+  background-color: rgb(255, 255, 255);
+}
+.objetivo .socios-caja {
+  width: 30rem;
+  height: 8rem;
+  margin-top: auto;
+  margin-bottom: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 189, 67, 0.799);
+}
+.objetivo .socios-caja:hover {
+  background-color: rgb(255, 189, 67);
+}
+
+/*Fin page/index*/
+/*Page/actividades*/
+.texto-imagen {
+  width: 50%;
+  height: auto;
+}
+
+.img-texto-imagen {
+  width: 15rem;
+  height: 8rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: 3rem;
+  float: right;
+}
+
+/*Fin page/actividades*/
+/*Page/tarifas*/
+.main-tarifas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.main-tarifas .card {
+  width: 20rem;
+  height: auto;
+  margin: 1rem;
+  padding: 1.5rem;
+  border-radius: 5%;
+  background-color: rgba(226, 226, 226, 0.867);
+}
+.main-tarifas .card .titulo-card {
+  display: flex;
+  justify-content: center;
+}
+.main-tarifas .card .lista {
+  list-style: square;
+}
+.main-tarifas .card:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.contenedor-en-card {
+  display: flex;
+}
+
+/*Fin page/tarifas*/
+/*Page/elcentro*/
+.secciones {
+  width: auto;
+  height: 32rem;
+  display: flex;
+  color: rgb(255, 255, 255);
+}
+.secciones .seccion {
+  width: 30%;
+  height: auto;
+  margin-top: 0;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0.1rem solid rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.secciones .seccion .titulo {
+  font-size: xx-large;
+}
+.secciones .img-centro1 {
+  background-image: url(../img/entrenamiento-cardiovascular.jpg);
+}
+.secciones .img-centro2 {
+  background-image: url(../img/zona-de-musculacion.jpg);
+}
+.secciones .img-centro3 {
+  background-image: url(../img/clases-grupales.jpg);
+}
+.secciones .img-centro4 {
+  background-image: url(../img/piscina-y-spa.jpg);
+}
+/*Fin page/elcentro*/
+/*Page/contacto*/
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.info .contacto {
+  width: 20rem;
+  height: 22rem;
+  margin: 1rem;
+  padding: 1.5rem;
+  background-color: rgb(226, 226, 226);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+  border-radius: 1rem;
+}
+.info .horario {
+  width: 20rem;
+  height: 10rem;
+  margin: 1rem;
+  padding: 1.5rem;
+  background-color: rgb(226, 226, 226);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+/*Fin page/contacto*/
+/*Importando a base*/
+.objetivo .socios-caja {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.objetivo .alta-caja {
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+.secciones .img-centro1, .secciones .img-centro2, .secciones .img-centro3, .secciones .img-centro4 {
+  background-size: contain;
+  background-position: center;
+  background-repeat: round;
+  background-size: 100%;
+}
+
+.secciones .seccion:hover, .secciones .img-centro1:hover, .secciones .img-centro2:hover, .secciones .img-centro3:hover, .secciones .img-centro4:hover {
+  transition: 2s;
+  transform: scale(1.5);
+}
+
+/*Importando a base*/
+/*Fin Importando a base*/
+/*Titulos*/
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: x-large;
+}
+
+/*Fin titulos*/
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  list-style: none;
+}
+
+/*Fondo de texto*/
+.body-contenedor {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  background-color: rgba(226, 226, 226, 0.737);
+  border-radius: 2rem;
+}
+
+/*Fin Fondo de texto*/
+/*Fin importando a base*/
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.bg-img {
+  width: 100%;
+  height: auto;
+  opacity: 0.9;
+  position: absolute;
+  z-index: -1;
+  position: fixed;
+}
+
+main {
+  margin: 3rem;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.723);
+}
+
+/*Base*/
+.objetivo .socios-caja {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.objetivo .alta-caja {
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+.secciones .img-centro1, .secciones .img-centro2, .secciones .img-centro3, .secciones .img-centro4 {
+  background-size: contain;
+  background-position: center;
+  background-repeat: round;
+  background-size: 100%;
+}
+
+.secciones .seccion:hover, .secciones .img-centro1:hover, .secciones .img-centro2:hover, .secciones .img-centro3:hover, .secciones .img-centro4:hover {
+  transition: 2s;
+  transform: scale(1.5);
+}
+
+/*Importando a base*/
+/*Fin Importando a base*/
+/*Titulos*/
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: x-large;
+}
+
+/*Fin titulos*/
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  list-style: none;
+}
+
+/*Fondo de texto*/
+.body-contenedor {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  background-color: rgba(226, 226, 226, 0.737);
+  border-radius: 2rem;
+}
+
+/*Fin Fondo de texto*/
+/*Media Query*/
+/*Importando a base*/
+.objetivo .socios-caja {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.objetivo .alta-caja {
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+.secciones .img-centro1, .secciones .img-centro2, .secciones .img-centro3, .secciones .img-centro4 {
+  background-size: contain;
+  background-position: center;
+  background-repeat: round;
+  background-size: 100%;
+}
+
+.secciones .seccion:hover, .secciones .img-centro1:hover, .secciones .img-centro2:hover, .secciones .img-centro3:hover, .secciones .img-centro4:hover {
+  transition: 2s;
+  transform: scale(1.5);
+}
+
+/*Importando a base*/
+/*Fin Importando a base*/
+/*Titulos*/
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: x-large;
+}
+
+/*Fin titulos*/
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  list-style: none;
+}
+
+/*Fondo de texto*/
+.body-contenedor {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  background-color: rgba(226, 226, 226, 0.737);
+  border-radius: 2rem;
+}
+
+/*Fin Fondo de texto*/
+/*Fin importando a base*/
+/*Media query header*/
+/*Tablet*/
+@media only screen and (max-width: 1023px) {
+  /*Generales tablet*/
+  h3 {
+    font-size: large;
+  }
+  p {
+    font-size: small;
+  }
+  li {
+    font-size: small;
+  }
+  /*Fin Generales tablet*/
+  /*Tablet header*/
+  .nav-list {
+    width: auto;
+    height: 3rem;
+  }
+  .nav-list .ul-nav {
+    margin-top: 1rem;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .img-logo-fitlife {
+    width: 6rem;
+    height: 4rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2rem;
+    margin-right: auto;
+  }
+  /*Fin Tablet header*/
+  /*Tablet index*/
+  .img-logo-whatsapp {
+    display: none;
+  }
+  .whatsapp-contenedor {
+    margin-top: auto;
+    margin-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .alta-caja {
+    width: 25rem !important;
+    height: 8rem !important;
+  }
+  .socios-caja {
+    width: 25rem !important;
+    height: 6rem !important;
+  }
+  /*Fin tablet index*/
+  /*Tablet tarifas*/
+  .card {
+    width: 15rem;
+    height: auto;
+  }
+  /*Fin Tablet tarifas*/
+  /*Tablet elcentro*/
+  .secciones {
+    width: auto;
+    height: 24rem;
+  }
+  .secciones .titulo {
+    font-size: medium;
+  }
+  /*Fin Tablet elcentro*/
+  /*Tablet contacto*/
+  .contacto {
+    width: 20rem;
+    height: 16rem;
+  }
+  .contacto .h-contacto {
+    font-size: larger;
+  }
+  /*Fin Tablet contacto*/
+}
+/*Fin Tablet*/
+/*Mobile*/
+@media only screen and (max-width: 480px) {
+  /*Mobile generales*/
+  header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  main {
+    margin: 1.2rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  h3 {
+    font-size: medium;
+  }
+  p {
+    font-size: smaller;
+    margin: 0;
+  }
+  li {
+    font-size: smaller;
+  }
+  .bg-img {
+    width: 140%;
+    height: 100%;
+  }
+  .body-contenedor {
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  /*Mobile generales*/
+  /*Mobile header*/
+  .nav-list {
+    width: 7rem;
+    height: auto;
+  }
+  .nav-list .ul-nav {
+    padding-top: auto;
+    padding-bottom: auto;
+    padding-left: 1rem;
+    padding-right: auto;
+    margin-top: 0;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: medium;
+    background-color: rgba(255, 255, 255, 0.51);
+  }
+  .img-logo-fitlife {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0;
+    margin-right: auto;
+    width: auto;
+    height: 4.8rem;
+  }
+  /*Fin Mobile header*/
+  /*Mobile footer*/
+  footer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  footer .fitlife-footer {
+    display: none;
+  }
+  footer .rrss-footer {
+    width: 1rem;
+    height: 1rem;
+    padding-top: auto;
+    padding-bottom: 0.3rem;
+    padding-left: auto;
+    padding-right: auto;
+  }
+  /*Fin Mobile footer*/
+  /*Mobile index*/
+  .whatsapp-contenedor {
+    display: none;
+  }
+  .objetivo {
+    margin-top: 8rem !important;
+    margin-bottom: 10rem !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .objetivo .alta-caja {
+    width: 14rem !important;
+    height: 6rem !important;
+  }
+  .objetivo .socios-caja {
+    width: 14rem !important;
+    height: 4rem !important;
+  }
+  .fitlife-texto {
+    padding-top: 0.8rem;
+    padding-bottom: auto;
+    padding-left: auto;
+    padding-right: auto;
+  }
+  /*Fin mobile index*/
+  /*Mobile actividades*/
+  .texto-imagen {
+    width: 100%;
+    height: auto;
+  }
+  .img-texto-imagen {
+    float: none;
+    width: 14rem;
+    height: auto;
+  }
+  /*Fin Mobile actividades*/
+  /*Mobile tarifas*/
+  .main-tarifas {
+    margin: 1rem;
+  }
+  .main-tarifas .card {
+    width: 17rem;
+    height: auto;
+    padding: 0;
+    border: 0.5rem solid rgba(226, 226, 226, 0.793);
+  }
+  /*Fin Mobile tarifas*/
+  /*Mobile elcentro*/
+  .secciones {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: 100rem;
+  }
+  .secciones .seccion {
+    width: 100%;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .secciones .img-centro1 {
+    background-repeat: repeat;
+  }
+  .secciones .img-centro2 {
+    background-repeat: repeat;
+  }
+  .secciones .img-centro3 {
+    background-repeat: repeat;
+  }
+  .secciones .img-centro4 {
+    background-repeat: repeat;
+  }
+}
+/*Fin Mobile elcentro*/
+/*Mobile contacto*/
+.info {
+  display: flex;
+  flex-direction: column !important;
+}
+.info .contacto {
+  width: auto;
+  height: auto;
+}
+.info .horario {
+  width: auto;
+  height: auto;
+}
+
+/*Fin Mobile contacto*/
+/*Fin mobile*/
+
+/*# sourceMappingURL=styles.css.map */

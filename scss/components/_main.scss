@@ -1,0 +1,217 @@
+/*Importando a base*/
+@import "../base/extends";
+@import "../base/maps";
+@import "../base/mixins";
+/*Fin importando a base*/
+
+/*Page/Index*/
+.img-logo-whatsapp {
+    @include sizes (6rem, 6rem);
+}
+
+.whatsapp-contenedor {
+    @include margin (auto,3rem,auto,auto);
+    display: flex;
+    justify-content: flex-end;
+    position: static;
+}
+
+.objetivo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .alta-caja {
+        @include sizes (30rem,11rem);
+        @extend %border-radius-top;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(235, 235, 235, 0.793);
+        animation-name: cambio-color;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+
+
+        @keyframes cambio-color {
+            from {
+                background-color: rgba(136, 136, 136, 0.825)
+            }
+
+            50% {
+                background-color: rgba(255, 255, 255, 0.883);
+            }
+
+            to {
+                background-color: rgba(136, 136, 136, 0.825);
+            }
+        }
+
+        .alta-caja:hover {
+            animation-play-state: paused !important;
+            background-color: rgb(255, 255, 255);
+        }
+    }
+
+    .socios-caja {
+        @include sizes (30rem,8rem);
+        @include margin (auto,4rem,auto,auto);
+        @extend %border-radius-bottom;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 189, 67, 0.799);
+    }
+
+    .socios-caja:hover {
+        background-color: rgb(255, 189, 67);
+    }
+}
+
+/*Fin page/index*/
+
+/*Page/actividades*/
+.texto-imagen {
+    @include sizes (50%,auto);
+}
+
+.img-texto-imagen {
+    @include sizes (15rem,8rem);
+    @include margin (auto,auto,auto,3rem);
+    float: right;
+}
+
+/*Fin page/actividades*/
+
+/*Page/tarifas*/
+.main-tarifas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .card {
+        @include sizes (20rem,auto);
+        margin: 1rem;
+        padding: 1.5rem;
+        border-radius: 5%;
+        background-color: rgba(226, 226, 226, 0.867);
+
+        .titulo-card {
+            display: flex;
+            justify-content: center;
+        }
+
+        .lista {
+            list-style: square;
+        }
+    }
+
+    .card:hover {
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+.contenedor-en-card {
+    display: flex;
+
+}
+
+/*Fin page/tarifas*/
+
+/*Page/elcentro*/
+.secciones {
+    @include sizes (auto,32rem);
+    display: flex;
+    color: rgb(255, 255, 255);
+
+    .seccion {
+        @include sizes (30%,auto);
+        @include margin (0,3rem,auto,auto);
+        border: 0.1rem solid rgb(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .titulo {
+            font-size: xx-large;
+        }
+    }
+
+    .seccion:hover {
+        @extend %hover-img-centro;
+    }
+
+    .img-centro1 {
+        background-image: url(../img/entrenamiento-cardiovascular.jpg);
+        @extend %background-img-centro;
+    }
+
+    .img-centro1:hover {
+        @extend %hover-img-centro;
+    }
+
+    .img-centro2 {
+        background-image: url(../img/zona-de-musculacion.jpg);
+        @extend %background-img-centro;
+    }
+
+    .img-centro2:hover {
+        @extend %hover-img-centro;
+    }
+
+    .img-centro3 {
+        background-image: url(../img/clases-grupales.jpg);
+        @extend %background-img-centro;
+    }
+
+    .img-centro3:hover {
+        @extend %hover-img-centro;
+    }
+
+    .img-centro4 {
+        background-image: url(../img/piscina-y-spa.jpg);
+        @extend %background-img-centro;
+    }
+
+    .img-centro4:hover {
+        @extend %hover-img-centro;
+    }
+
+}
+
+/*Fin page/elcentro*/
+
+/*Page/contacto*/
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .contacto {
+        @include sizes (20rem,22rem);
+        margin: 1rem;
+        padding: 1.5rem;
+        background-color: rgb(226, 226, 226);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: start;
+        border-radius: 1rem;
+    }
+
+    .horario {
+        @include sizes (20rem,10rem);
+        margin: 1rem;
+        padding: 1.5rem;
+        background-color: rgb(226, 226, 226);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 1rem;
+    }
+}
+
+/*Fin page/contacto*/

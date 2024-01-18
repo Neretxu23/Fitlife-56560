@@ -1,0 +1,29 @@
+/*Importando a base*/
+@import "../base/mixins";
+/*Fin Importando a base*/
+
+/*Titulos*/
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: x-large;
+}
+/*Fin titulos*/
+
+a{
+    text-decoration: none!important;
+}
+
+ul {
+    list-style: none;
+}
+
+/*Fondo de texto*/
+.body-contenedor {
+    @include padding (1rem,1rem,2.5rem,2.5rem);
+    background-color: rgba(226, 226, 226, 0.737);
+    border-radius: 2rem;
+}
+/*Fin Fondo de texto*/

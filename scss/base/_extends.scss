@@ -1,0 +1,21 @@
+%border-radius-bottom {
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+%border-radius-top {
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+%background-img-centro {
+    background-size: contain;
+    background-position: center;
+    background-repeat: round;
+    background-size: calc(100%);
+}
+
+%hover-img-centro {
+    transition: 2s;
+    transform: scale(1.5);
+}

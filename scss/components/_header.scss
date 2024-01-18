@@ -1,0 +1,31 @@
+/*Importando a base*/
+@import "../base/extends";
+@import "../base/maps";
+@import "../base/mixins";
+/*Fin importando a base*/
+
+/*Logotipo*/
+.img-logo-fitlife {
+    @include sizes (8rem, 6rem);
+}
+/*Fin Logotipo*/
+
+/*Navegación*/
+.nav-list {
+    @include sizes (50rem,6rem);
+    .ul-nav {
+        @include margin (2rem,auto,auto,auto);
+        display: flex;
+        justify-content: space-evenly;
+        a:link{
+            color: rgba(0, 0, 0);
+        }
+        a:visited{
+            color: rgb(0, 0, 0);
+        }
+        a:hover{
+            color: rgba(33, 45, 206, 0.799);
+        }
+    }
+}
+/*Fin Navegación*/

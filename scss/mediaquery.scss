@@ -1,0 +1,289 @@
+/*Importando a base*/
+@import "base/extends";
+@import "base/maps";
+@import "base/mixins";
+/*Fin importando a base*/
+
+/*Media query header*/
+/*Tablet*/
+@media only screen and (max-width:1023px) {
+
+    /*Generales tablet*/
+    h3 {
+        font-size: large;
+    }
+
+    p {
+        font-size: small;
+    }
+
+    li {
+        font-size: small;
+    }
+
+    /*Fin Generales tablet*/
+
+
+    /*Tablet header*/
+    .nav-list {
+        @include sizes (auto,3rem);
+
+        .ul-nav {
+            @include margin (1rem,auto,auto,auto);
+        }
+    }
+
+    .img-logo-fitlife {
+        @include sizes (6rem,4rem);
+        @include margin (auto,auto,2rem,auto);
+    }
+
+    /*Fin Tablet header*/
+
+
+    /*Tablet index*/
+    .img-logo-whatsapp {
+        display: none;
+    }
+
+    .whatsapp-contenedor {
+        @include margin (auto,5rem,auto,auto);
+    }
+
+    .alta-caja {
+        @include sizes (25rem !important,8rem !important);
+    }
+
+    .socios-caja {
+        @include sizes (25rem !important,6rem !important);
+    }
+
+    /*Fin tablet index*/
+
+
+    /*Tablet tarifas*/
+    .card {
+        @include sizes (15rem,auto);
+    }
+
+    /*Fin Tablet tarifas*/
+
+
+    /*Tablet elcentro*/
+    .secciones {
+        @include sizes (auto,24rem);
+
+        .titulo {
+            font-size: medium;
+        }
+    }
+
+    /*Fin Tablet elcentro*/
+
+
+    /*Tablet contacto*/
+    .contacto {
+        @include sizes (20rem,16rem);
+
+        .h-contacto {
+            font-size: larger;
+        }
+    }
+
+    /*Fin Tablet contacto*/
+}
+
+/*Fin Tablet*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*Mobile*/
+@media only screen and (max-width:480px) {
+
+    /*Mobile generales*/
+    header {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    main {
+        margin: 1.2rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: medium;
+    }
+
+    p {
+        font-size: smaller;
+        margin: 0;
+    }
+
+    li {
+        font-size: smaller;
+    }
+
+    .bg-img{
+        @include sizes (140%,100%);
+    }
+
+    .body-contenedor{
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+    /*Mobile generales*/
+
+    /*Mobile header*/
+    .nav-list {
+        @include sizes (7rem, auto);
+
+        .ul-nav {
+            @include padding (auto,auto,1rem,auto,);
+            @include margin (0,auto,auto,auto);
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            font-size: medium;
+            background-color: rgba(255, 255, 255, 0.51);
+        }
+    }
+
+    .img-logo-fitlife {
+        @include margin (auto,auto,0,auto);
+        @include sizes (auto, 4.8rem);
+    }
+
+    /*Fin Mobile header*/
+
+    /*Mobile footer*/
+    footer{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+
+        .fitlife-footer{
+            display: none;
+        }
+        .rrss-footer{
+            @include sizes (1rem, 1rem);
+            @include padding (auto,0.3rem,auto,auto,);
+        }
+    }
+
+    /*Fin Mobile footer*/
+
+    /*Mobile index*/
+    .whatsapp-contenedor {
+        display: none;
+    }
+
+    .objetivo {
+        @include margin (8rem !important,10rem !important,auto,auto);
+
+        .alta-caja {
+            @include sizes (14rem !important, 6rem !important);
+        }
+
+        .socios-caja {
+            @include sizes (14rem !important, 4rem !important);
+        }
+    }
+
+    .fitlife-texto{
+        @include padding (0.8rem,auto,auto,auto,);
+    }
+
+    
+
+    /*Fin mobile index*/
+
+
+    /*Mobile actividades*/
+    .texto-imagen {
+        @include sizes (100%, auto);
+    }
+
+    .img-texto-imagen {
+        float: none;
+        @include sizes (14rem, auto);
+    }
+
+    /*Fin Mobile actividades*/
+
+    /*Mobile tarifas*/
+    .main-tarifas {
+        margin: 1rem;
+
+        .card {
+            @include sizes (17rem, auto);
+            padding: 0;
+            border: 0.5rem solid rgba(226, 226, 226, 0.793);
+        }
+    }
+
+    /*Fin Mobile tarifas*/
+
+
+    /*Mobile elcentro*/
+    .secciones {
+        display: flex;
+        flex-wrap: wrap;
+        @include sizes (auto, 100rem);
+
+        .seccion {
+            @include sizes (100%, auto);
+            @include margin (auto,0,auto,auto);
+        }
+
+        .img-centro1 {
+            background-repeat: repeat;
+        }
+
+        .img-centro2 {
+            background-repeat: repeat;
+        }
+
+        .img-centro3 {
+            background-repeat: repeat;
+        }
+
+        .img-centro4 {
+            background-repeat: repeat;
+        }
+    }
+}
+
+/*Fin Mobile elcentro*/
+
+
+/*Mobile contacto*/
+.info{
+    display: flex;
+    flex-direction: column !important;
+    .contacto {
+        @include sizes (auto,auto);
+    }
+
+    .horario {
+        @include sizes (auto, auto);
+    }
+}
+    
+
+/*Fin Mobile contacto*/
+/*Fin mobile*/

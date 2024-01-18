@@ -1,0 +1,18 @@
+@mixin sizes($width, $height){
+    width: $width;
+    height: $height;
+}
+
+@mixin padding($padtop,$padbottom,$padleft,$padright){
+    padding-top: $padtop;
+    padding-bottom: $padbottom;
+    padding-left: $padleft;
+    padding-right: $padright;
+}
+
+@mixin margin($martop,$marbottom,$marleft,$marright){
+    margin-top: $martop;
+    margin-bottom: $marbottom;
+    margin-left: $marleft;
+    margin-right: $marright;
+}
